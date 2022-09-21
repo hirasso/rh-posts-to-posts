@@ -6,13 +6,18 @@
     "minimum-stability": "dev",
     "require": {
         "composer/installers": "~1.0",
-        "scribu/lib-posts-to-posts": "dev-master",
+        "hirasso/lib-posts-to-posts": "dev-master",
+        "hirasso/scb-framework": "dev-master",
         "mustache/mustache": "~2.6"
     },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/hirasso/wp-lib-posts-to-posts"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hirasso/wp-scb-framework"
         }
     ]
 }
