@@ -1,0 +1,300 @@
+{
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "1.x-dev",
+            "version_normalized": "1.9999999.9999999.9999999-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "894a0b5c5d34c88b69b097f2aae1439730fa6836"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/894a0b5c5d34c88b69b097f2aae1439730fa6836",
+                "reference": "894a0b5c5d34c88b69b097f2aae1439730fa6836",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.3"
+            },
+            "time": "2022-03-15T21:23:54+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                },
+                "plugin-modifies-install-path": true
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "symfony",
+                "tastyigniter",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/1.x"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "./installers"
+        },
+        {
+            "name": "hirasso/lib-posts-to-posts",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hirasso/wp-lib-posts-to-posts.git",
+                "reference": "c6acfb0aa9c877428672da0d29c3440c5431a15b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hirasso/wp-lib-posts-to-posts/zipball/c6acfb0aa9c877428672da0d29c3440c5431a15b",
+                "reference": "c6acfb0aa9c877428672da0d29c3440c5431a15b",
+                "shasum": ""
+            },
+            "require": {
+                "hirasso/scb-framework": "dev-master"
+            },
+            "time": "2022-09-21T14:32:00+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "autoload.php"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "A library for many-to-many relationships in WordPress",
+            "homepage": "https://github.com/hirasso/wp-lib-posts-to-posts",
+            "support": {
+                "source": "https://github.com/hirasso/wp-lib-posts-to-posts/tree/master"
+            },
+            "install-path": "../hirasso/lib-posts-to-posts"
+        },
+        {
+            "name": "hirasso/scb-framework",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hirasso/wp-scb-framework.git",
+                "reference": "ed12df0a3ef6fbc32ecb214ad5b53e208d4b1eb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hirasso/wp-scb-framework/zipball/ed12df0a3ef6fbc32ecb214ad5b53e208d4b1eb7",
+                "reference": "ed12df0a3ef6fbc32ecb214ad5b53e208d4b1eb7",
+                "shasum": ""
+            },
+            "time": "2022-09-21T14:25:45+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "."
+                ],
+                "files": [
+                    "load-composer.php",
+                    "Util.php"
+                ]
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Cristi Burcă",
+                    "homepage": "http://scribu.net/"
+                }
+            ],
+            "description": "A set of useful classes for faster plugin development",
+            "homepage": "https://github.com/hirasso/wp-scb-framework",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/scribu/wp-scb-framework/issues",
+                "source": "https://github.com/scribu/wp-scb-framework",
+                "wiki": "https://github.com/scribu/wp-scb-framework/wiki"
+            },
+            "install-path": "../hirasso/scb-framework"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "v2.14.2",
+            "version_normalized": "2.14.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "e62b7c3849d22ec55f3ec425507bf7968193a6cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/e62b7c3849d22ec55f3ec425507bf7968193a6cb",
+                "reference": "e62b7c3849d22ec55f3ec425507bf7968193a6cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "phpunit/phpunit": "~3.7|~4.0|~5.0"
+            },
+            "time": "2022-08-23T13:07:01+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "support": {
+                "issues": "https://github.com/bobthecow/mustache.php/issues",
+                "source": "https://github.com/bobthecow/mustache.php/tree/v2.14.2"
+            },
+            "install-path": "../mustache/mustache"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
