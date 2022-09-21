@@ -7,6 +7,7 @@ Author: scribu, Rasso Hilber
 Plugin URI: https://github.com/hirasso/wp-posts-to-posts
 Text Domain: posts-to-posts
 Domain Path: /lang
+GitHub Plugin URI: hirasso/wp-posts-to-posts
 */
 
 if ( class_exists( 'WP_CLI' ) ) {
