@@ -1,11 +1,10 @@
 <?php
 /*
-Plugin Name: Posts 2 Posts
+Plugin Name: Posts 2 Posts – FORKED
 Description: Create many-to-many relationships between all types of posts.
 Version: 1.6.5
-Author: scribu
-Author URI: http://scribu.net/
-Plugin URI: http://scribu.net/wordpress/posts-to-posts
+Author: scribu, Rasso Hilber
+Plugin URI: https://github.com/hirasso/wp-posts-to-posts
 Text Domain: posts-to-posts
 Domain Path: /lang
 */
