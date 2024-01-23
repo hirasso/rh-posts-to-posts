@@ -2,7 +2,7 @@
 /*
 Plugin Name: Posts 2 Posts – FORKED
 Description: Create many-to-many relationships between all types of posts.
-Version: 1.6.5
+Version: 1.6.6
 Author: scribu, Rasso Hilber
 Plugin URI: https://github.com/hirasso/wp-posts-to-posts
 Text Domain: posts-to-posts
